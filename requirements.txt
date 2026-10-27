@@ -1,0 +1,8 @@
+numpy==2.2.6
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.3
+pytest==8.3.5
+# Compatible transitive versions for the pinned sklearn/matplotlib releases.
+scipy==1.14.1
+pyparsing==3.2.3

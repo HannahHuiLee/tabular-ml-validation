@@ -1,0 +1,30 @@
+# Local environments, Python and test caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+# OS, editor, and temporary artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+.mpl-cache/
+# Keep verified public data and final reports tracked; ignore experiment outputs.
+reports/smoke/
+
+# Previous experimental history
+reports/history/

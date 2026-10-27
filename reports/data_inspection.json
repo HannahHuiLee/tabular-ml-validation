@@ -1,0 +1,67 @@
+{
+  "n_samples": 1000,
+  "n_features": 20,
+  "target_shape": [
+    1000
+  ],
+  "positive_class": "1 = bad credit; 0 = good credit (UCI 2 -> 1, 1 -> 0)",
+  "class_counts": {
+    "0": 700,
+    "1": 300
+  },
+  "class_percentages": {
+    "0": 70.0,
+    "1": 30.0
+  },
+  "missing_feature_values": 0,
+  "missing_labels": 0,
+  "all_numeric_features_finite": true,
+  "duplicate_feature_rows": 0,
+  "numeric_features": [
+    "duration_months",
+    "credit_amount",
+    "installment_rate",
+    "residence_since",
+    "age",
+    "existing_credits",
+    "dependents"
+  ],
+  "categorical_features": [
+    "checking_status",
+    "credit_history",
+    "purpose",
+    "savings_status",
+    "employment",
+    "personal_status_sex",
+    "other_debtors",
+    "property",
+    "other_installment_plans",
+    "housing",
+    "job",
+    "telephone",
+    "foreign_worker"
+  ],
+  "feature_names": [
+    "checking_status",
+    "duration_months",
+    "credit_history",
+    "purpose",
+    "credit_amount",
+    "savings_status",
+    "employment",
+    "installment_rate",
+    "personal_status_sex",
+    "other_debtors",
+    "residence_since",
+    "property",
+    "age",
+    "other_installment_plans",
+    "housing",
+    "existing_credits",
+    "job",
+    "dependents",
+    "telephone",
+    "foreign_worker"
+  ],
+  "sha256": "b21f3d81db8071257d5ff1deaeba1fd4303b62712e6fcc9715c7a86202cb5871"
+}
