@@ -117,7 +117,7 @@ def write_report(results: dict, output_dir: Path) -> None:
               '- CV spread and the holdout provide limited evidence from one dataset and one fixed split. '
               'Future tuning must stay inside training data; repeated decisions based on this holdout '
               'would require a new independent final evaluation.',
-              '- Educational classical tabular benchmark only: no TD proprietary data, no clinical or '
+              '- Educational classical tabular benchmark only: no clinical or '
               'production suitability claim, and not validation of deep learning foundation models.', '',
               '## Reproduction artifacts', '',
               '`benchmark_results.json` records environment, settings, split/fold row IDs and all metrics. '

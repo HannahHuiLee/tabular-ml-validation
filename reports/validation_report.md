@@ -77,7 +77,7 @@ At the fixed threshold, Logistic Regression and Random Forest have higher holdou
 - No missing values in this official snapshot; synthetic missing-value tests only verify pipeline mechanics. They do not demonstrate robustness to real missingness.
 - Aggregate errors identify missed bad risks and good risks flagged bad. They do not explain individual causes. Predictions and row IDs are saved for follow-up analysis.
 - CV spread and the holdout provide limited evidence from one dataset and one fixed split. Future tuning must stay inside training data; repeated decisions based on this holdout would require a new independent final evaluation.
-- Educational classical tabular benchmark only: no TD proprietary data, no clinical or production suitability claim, and not validation of deep learning foundation models.
+- Educational classical tabular benchmark only: no clinical or production suitability claim, and not validation of deep learning foundation models.
 
 ## Reproduction artifacts
 
